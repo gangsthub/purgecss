@@ -322,7 +322,7 @@ Blocklist will block the CSS selectors from appearing in the final output CSS. T
 ```ts
 blocklist: ['usedClass', /^nav-/]
 ```
-Even if nav-links and usedClass are found by an extractor, they will be removed.
+Even if `nav-links` and `usedClass` are found by an extractor, they will be removed.
 
 - **skippedContentGlobs**
 
